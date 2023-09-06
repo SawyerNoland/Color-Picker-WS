@@ -1,6 +1,6 @@
-// Write your Color component here
+import { useState } from "react";
 const Color = (props) => {
-  return <div className="red"></div>
+  return <div className={props.color}></div>
 }
 const App = () => {
   return (
